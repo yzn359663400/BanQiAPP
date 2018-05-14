@@ -1,0 +1,11 @@
+<litepal>
+    <dbname value="MyTest"/>
+    <version value="1.0"/>
+    <list>
+        <mapping class="com.example.b0.banqiapp.User"/>
+        <mapping class="com.example.b0.banqiapp.DataUserTable" />
+
+
+
+    </list><!--数据库和表在首次操作时创建-->
+</litepal>
