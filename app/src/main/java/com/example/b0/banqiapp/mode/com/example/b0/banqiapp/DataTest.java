@@ -2,7 +2,7 @@ package com.example.b0.banqiapp;
 
 import org.litepal.crud.DataSupport;
 
-public class DataUserTable extends DataSupport {
+public class DataTest extends DataSupport {
     private  int id;
     private  String name;
     private int data1;

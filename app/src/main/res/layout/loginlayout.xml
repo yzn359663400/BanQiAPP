@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj"
+   >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/creature"
+        android:contentDescription="@string/图标应用描述" />
+    <LinearLayout
+     android:layout_below="@id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/用户标签"
+        android:textSize="20sp"
+        android:layout_marginStart="5dp" />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/用户名"
+                android:layout_toRightOf="@id/textView"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@id/textView"
+                android:layout_marginStart="5dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:text="@string/密码标签"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/密码框提示"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/textView2"
+            android:layout_marginLeft="5dp"
+        android:inputType="textPassword"
+        android:layout_toEndOf="@id/textView2"
+        android:layout_marginStart="5dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+    <CheckBox
+        android:layout_marginLeft="80dp"
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/复选框标签"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="80dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/checkBox"
+            android:text="@string/登录按钮"
+            android:layout_toEndOf="@id/checkBox"
+            android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

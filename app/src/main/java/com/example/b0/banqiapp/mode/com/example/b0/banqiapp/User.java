@@ -3,10 +3,10 @@ package com.example.b0.banqiapp;
 import org.litepal.crud.DataSupport;
 
 public class User extends DataSupport {
-    int id;
-    String username;
-    String pwd;
-    public int getId() {
+    private long id;
+    private   String username;
+    private String pwd;
+    public long getId() {
         return id;
     }
 
