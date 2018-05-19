@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bj2"
+   >
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp">
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="显示数据"
+            android:id="@+id/show_data"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_green_light"
+            />
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="增加数据"
+            android:id="@+id/add_data"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="更新数据"
+            android:id="@+id/update_data"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="删除数据"
+            android:id="@+id/delete_data"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="查询数据"
+            android:id="@+id/query_data"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
